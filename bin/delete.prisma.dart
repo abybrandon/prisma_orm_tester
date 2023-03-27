@@ -9,7 +9,7 @@ final prisma = PrismaClient(
 );
 
 main() async {
-  final user = await prisma.tester.delete(
-    where: TesterWhereUniqueInput(coba: "1"),
+  final tester = await prisma.tester.delete(
+    where: TesterWhereUniqueInput(coba: "121"),
   );
 }

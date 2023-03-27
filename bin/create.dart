@@ -12,8 +12,8 @@ main() async {
   try {
     final tester = await prisma.tester.create(
       data: TesterCreateInput(
-       coba: '121',
-       coba2: 'test input',
+       coba: '1',
+       coba2: 'hasil create',
       ),
     );
     print(tester);
